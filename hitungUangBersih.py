@@ -1,33 +1,33 @@
 # HITUNG UANG  BERSIH YANG DI TERIMA DARI PENJUALAN TANAH 
-# Harga_permeter = 300000
+Harga_permeter = 300000
 
-# luas_tanah = int(input("Luas tanah yang ingin di jual (Meter) = ")) 
+luas_tanah = int(input("Luas tanah yang ingin di jual (Meter) = ")) 
 
-# total_Harga = Harga_permeter * luas_tanah 
+total_Harga = Harga_permeter * luas_tanah 
 
-# if total_Harga >=50000000:
-#     pajak = Harga_permeter * 0.03 
+if total_Harga >=50000000:
+    pajak = Harga_permeter * 0.03 
     
-# elif total_Harga >= 100000000:
-#     pajak = Harga_permeter * 0.05 
-# else : 
-#     pajak = Harga_permeter * 0.01 
+elif total_Harga >= 100000000:
+    pajak = Harga_permeter * 0.05 
+else : 
+    pajak = Harga_permeter * 0.01 
 
-# uang_bersih = total_Harga - pajak 
+uang_bersih = total_Harga - pajak 
 
-# print("===============================================================================")
+print("===============================================================================")
 
-# print("Total harga jual adalah                                   : Rp . " , total_Harga) 
-# print("Besarnya pajak yang di berikan adalah                     : Rp. " , pajak) 
-# print("uang bersih yang di dapatkan dari penjualan tanah sebesar : Rp . " ,uang_bersih)
+print("Total harga jual adalah                                   : Rp . " , total_Harga) 
+print("Besarnya pajak yang di berikan adalah                     : Rp. " , pajak) 
+print("uang bersih yang di dapatkan dari penjualan tanah sebesar : Rp . " ,uang_bersih)
 
-# # Maap kalo salah pak mentor :(
+# Maap kalo salah pak mentor :(
 
-# alim = 1
+alim = 1
 
-# while alim <= 10:
-#     print('Rungkad:(')
-#     alim +=1 
+while alim <= 10:
+    print('Rungkad:(')
+    alim +=1 
 
 
 # menghitung Luas segitiga 
