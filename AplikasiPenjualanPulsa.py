@@ -70,7 +70,6 @@ else :
 print("==========================================")
 print("nama : " , nama)
 print("golongan : " , golongan) 
-print("gaji : " , upah)
 print("lama lembur(jam) : " , jam_lembur) 
-print("gaji berdasarkan golongan : " , golongan) 
+print("gaji berdasarkan golongan : " , upah) 
 print("Bonus : " , bonus) 
